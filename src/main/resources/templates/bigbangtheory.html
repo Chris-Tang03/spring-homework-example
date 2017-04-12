@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>The Big Bang Theory</title>
+    <link rel="stylesheet" href="/static/styles.css" th:href="@{styles.css}"/>
+</head>
+<body>
+
+<!--plays background music-->
+<audio src="../static/music/bbmusic.mp3" loop="loop" autoplay="autoplay" th:src="@{music/bbmusic.mp3}"></audio>
+
+
+<!--Aligns the text to center and make the text red-->
+<h1 align="center" style="color: orange">Welcome to Sheldon's Page!</h1>
+<p align="left" style="color: #febf00;">Sheldon be like</p>
+
+<!--Aligns image to the center-->
+<img src="../static/img/bazinga.jpg" align="center" th:src="@{img/bazinga.jpg}"/>
+<p align="left" style="color: #febf00;">when you said you made a functional website...</p>
+<img src="../static/img/cry.jpg" align="center" th:src="@{img/cry.jpg}"/>
+<p align="right" style="color: #febf00;">But seriously though, when your webpage <strong>WORKS</strong>...</p>
+
+<img src="../static/img/bigbang.gif" align="right" th:src="@{img/bigbang.gif}"/>
+
+</body>
+</html>
